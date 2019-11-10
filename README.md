@@ -1,5 +1,6 @@
 # fun-with-numpy-random
-Exploring numpy.random library as assignment for Programming for Data Analysis, GMIT 2019
+
+Assignment for **Programming for Data Analysis**, GMIT 2019
 
 Lecturer: dr Brian McGinley
 
@@ -11,56 +12,44 @@ Created: 11-10-2019
 
 ___
 
-## Content / plan (will be developed as I go)
-
-1. Introduction
-   1. Background (Purpose, link to project description pdf, etc)
-   2. Project delivery (how i am going to deliver assignment, Jupyter, version control, etc)
-2. About numpy.random
-   1. What is Numpy? (updated to version 1.17.2)
-   2. random.random vs numpy.random
-3. Random sampling
-   1. Description
-   2. Usage
-   3. Examples
-   4. Findings
-4. Permutations
-5. Distribution
-6. Pseudorandom numbers (seeds)
-7. Conclusion  
-   1. Purpose and applications (this is one of the assignment's requirement)
-   2. Simple random data and permutations functions
-   3. Seeds in pseudorandom generation
-   References
-___
-
-# 1. Introduction
-
-## 1.1 Background
+## Background
 
 This is my assignment project to Programming for Data Analysis module, Galway-Mayo Institute of Technology, 2019.
 
-This repository documents my intial research, project progress (git version control) and findings to the `numpy.random` library. As it is a learning exercise for me, I have made attempt to comment various funtionalities also for my future reference.
+This GitHub repository documents my initial research, project progress (git version control) and findings. As it is also a learning exercise for me, I have made attempt to comment various functionalities also for my future reference.
 
-The detailed Project instructions to be found in the assignment description file:
-<https://github.com/brianmcginley/ProgDA/raw/master/ProgDA_Assignment.pdf>.
+## Assignment objectives
+
+The assignment concerns the `numpy.random` package, a part of NumPy library for Python.
+
+The primary objective are as follows:
+
+> 1. To explain the overall purpose of the package.
+> 2. To explain the use of the "Simple random data" and "Permutations" functions.
+> 3. To explain the use and purpose of at least five "Distributions" functions.
+> 4. To explain the use of seeds in generating pseudo-random numbers.
+
+The detailed instructions can be found in the assignment description ([pdf](https://github.com/brianmcginley/ProgDA/raw/master/ProgDA_Assignment.pdf)).
+
+This project is intended to further familiarisation with data analytics. It is also intended to get familiar with the analytical tools, specifically the NumPy library and its random sampling module. The project will allow to get practical understanding of handling data in Python environment
+
+As it is a learning exercise for me, I have made attempt to try and comment various functionalities not only for readability but also for my future reference.
 
 The assignment has been carried out on Numpy version 1.17.2 (updated on 11-10-2019).
 
-## 1.2 Assignment delivery
+## Assignment delivery
 
-The assignment is delivered via this repository on [GitHub]<https://github.com/andkoc001/fun-with-numpy-random>.
+The project is delivered via this GitHub [repository] <https://github.com/andkoc001/fun-with-numpy-random>.
 
-The research is carried out with the help of Jupyter Notebook, where I test and illustrate the `numpy.random` concepts with code snipets as well as program outputs. The [Notebook] can be found at <https://github.com/andkoc001/fun-with-numpy-random/blob/master/exploring-random-numpy.ipynb>. This README.md file should be read in conjuntion with the Notebook.
+This README.md file contains background information and introduction to the assignment.
 
-For clarity, the Notebook may be later (I will see how the assignment goes) divided into several ones, each dealing a specific topic.
+The assignment has been done within the Jupyter Notebook [exploring-random-numpy.ipynb](https://github.com/andkoc001/fun-with-numpy-random/blob/master/exploring-random-numpy.ipynb), stored in this repository.
 
-Furthermore, I intend to set up another Notebook for my testing and exploring the funtionality. It is going to be an unofficial part of my research - my sandbox.
+In the notebook I have conducted the research and described the assignment progress. It is illustrated the applied concepts and methods together with relevant code snippets. The notebook includes also the calculated outputs and plots with accompanied description. Finally, inside the notebook I have included also references to sources being consulted for this assignment.
 
-This README.md file contains my research description, progress and findings.
+For viewing the notebook online, it is recommended to use Jupyter Notebooks viewer, [nbviewer](https://nbviewer.jupyter.org/). Paste the link to the notebook to be inspected into provided field.
 
-# 2. About numpy.random library
+Inside the the repository there is also another notebook, [sandbox-random-numpy.ipynb]. It is an unofficial part of my research - it was used for testing ideas to be later used in the actual analysis. Please ignore it for the assessment.
 
-## 2.2 What is Numpy?
-
-To be continued...
+___
+Andrzej Kocielski
